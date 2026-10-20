@@ -24,3 +24,7 @@ $$\frac{\partial L}{\partial guess} = 2(guess - secret)$$
 Then, we update our guess by moving against the gradient:
 
 $$guess = guess - \alpha \cdot \frac{\partial L}{\partial guess}$$
+
+## How to run
+1. Download ```main.py```
+2. Run it in terminal 
