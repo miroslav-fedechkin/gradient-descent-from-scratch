@@ -5,8 +5,6 @@ A simple implementation of gradient descent on a single parameter, written from 
 ## The Idea
 The goal is to find a secret number (7) by minimizing the Mean Squared Error (MSE) loss function.
 
-Loss function: L = (guess - secret)^2
-Derivative (gradient): dL/dguess = 2 * (guess - secret)
 
 ## How it works
 1. Start with a random guess (0).
