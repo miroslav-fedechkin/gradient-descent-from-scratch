@@ -1,4 +1,4 @@
-secret = 7
+secret = 42387326454654645664564584848
 lr = 0.1     #learning rate
 guess = 0.0
 
@@ -18,5 +18,3 @@ while True:
     guess = guess - lr * nakl
     
     print(f"Step {counter}: guess={guess:.4f}, loss={current_loss:.4f}, gradient={nakl:.2f}")
-    if (secret - guess) < 0.1:
-        break
